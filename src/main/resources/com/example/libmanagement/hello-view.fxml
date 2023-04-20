@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.libmanagement.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libmanagement.HelloController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@s774058804322417752_p1199_i9_w640.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="slide" layoutY="-1.0" onMouseClicked="#slide1" opacity="0.38" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black; -fx-position-shape: circle; -fx-border-color: white; -fx-border-width: 8px;" AnchorPane.topAnchor="-1.0" />
+      <Text fill="WHITE" layoutX="53.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IIT LIBRARY" wrappingWidth="377.57582092285156" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Centaur" size="59.0" />
+         </font>
+      </Text>
+      <Label layoutX="108.0" layoutY="186.0" prefHeight="66.0" prefWidth="471.0" text="iNFORMATIC INSTITUTE OF TECHNOLOGY" textFill="#f2f0f0" AnchorPane.topAnchor="186.0">
+         <font>
+            <Font name="Colonna MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="218.0" textFill="#f2eeee" AnchorPane.topAnchor="218.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="shop" layoutX="228.0" layoutY="262.0" mnemonicParsing="false" onAction="#shopnow" style="-fx-background-color: #699BF7; -fx-border-radius: 18px;" text="Shop Now" textFill="WHITE">
+         <padding>
+            <Insets bottom="17.0" left="26.0" right="31.0" top="18.0" />
+         </padding>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="110.0" layoutY="97.0" text="MANAGEMENT" textFill="#eae3e3">
+         <font>
+            <Font name="Century" size="59.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
