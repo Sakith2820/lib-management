@@ -19,7 +19,7 @@
          </image>
       </ImageView>
       <AnchorPane layoutX="-8.0" layoutY="-2.0" opacity="0.35" prefHeight="410.0" prefWidth="463.0" style="-fx-background-color: black;" />
-      <Label fx:id="text" prefHeight="18.0" prefWidth="272.0" textFill="#f2efef" AnchorPane.leftAnchor="87.0" AnchorPane.topAnchor="305.0">
+      <Label fx:id="text2" prefHeight="18.0" prefWidth="272.0" textFill="#f2efef" AnchorPane.leftAnchor="87.0" AnchorPane.topAnchor="305.0">
          <font>
             <Font size="18.0" />
          </font>
@@ -37,14 +37,14 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <TextField fx:id="Uname" layoutX="106.0" layoutY="101.0" prefHeight="26.0" prefWidth="306.0" style="-fx-background-color: white;" />
-      <Button fx:id="login" layoutX="139.0" layoutY="214.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="171.0" style="-fx-background-color: aqua;" text="Login" textFill="#180101" />
-      <PasswordField fx:id="passWord" layoutX="106.0" layoutY="159.0" prefHeight="18.0" prefWidth="306.0" style="-fx-background-color: white;" />
+      <TextField fx:id="Uname1" layoutX="106.0" layoutY="101.0" prefHeight="26.0" prefWidth="306.0" style="-fx-background-color: white;" />
+      <Button fx:id="login1" layoutX="139.0" layoutY="214.0" mnemonicParsing="false" onAction="#login8" prefHeight="26.0" prefWidth="171.0" style="-fx-background-color: aqua;" text="Login" textFill="#180101" />
+      <PasswordField fx:id="passWord1" layoutX="106.0" layoutY="159.0" prefHeight="18.0" prefWidth="306.0" style="-fx-background-color: white;" />
       <Text fill="#efe9e9" layoutX="181.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in">
          <font>
             <Font name="Arial Rounded MT Bold" size="23.0" />
          </font>
       </Text>
-      <Button fx:id="sign" layoutX="140.0" layoutY="253.0" mnemonicParsing="false" onAction="#sign" prefHeight="26.0" prefWidth="171.0" style="-fx-background-color: black;" text="Register" textFill="#fffcfc" />
+      <Button fx:id="sign12" layoutX="140.0" layoutY="253.0" mnemonicParsing="false" onAction="#sign8" prefHeight="26.0" prefWidth="171.0" style="-fx-background-color: black;" text="Forget Password" textFill="#fffcfc" />
    </children>
 </AnchorPane>
